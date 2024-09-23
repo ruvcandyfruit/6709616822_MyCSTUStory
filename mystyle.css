@@ -1,1 +1,18 @@
+body {
+    background-color: #191919;
+}
+img,video {
+    height: 100px;
+}
+p {
+    color: white;
+}
+header {
+    border: 2px solid white;
+}
+section {
+    border: 2px solid white;
+    column-count: 3;
+    column-rule: 2px solid white;
+}
 
