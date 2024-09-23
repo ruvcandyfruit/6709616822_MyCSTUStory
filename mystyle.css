@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Mono|Muli);
+
 body {
-    background-color: #191919;
+    background-color: #0e0548;
 }
 img,video {
     height: 100px;
@@ -8,7 +10,27 @@ p {
     color: white;
 }
 header {
-    border: 2px solid white;
+    border: 5px double white;
+    background-image: url(resources/cover.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 220px;
+    height: 150px;
+    margin-bottom: 70px;
+}
+header>img {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+}
+h1 {
+    color: white;
+    text-indent: 60px;
+    font-family: "Space Mono", monospace;
 }
 section {
     border: 2px solid white;
