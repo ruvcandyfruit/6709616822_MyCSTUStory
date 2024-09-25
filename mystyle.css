@@ -3,18 +3,13 @@
 body {
     background-color: #0e0548;
 }
-video {
-    width: 400px;
-    margin-top: 10px;
-    border: 2px solid white;
-    border-radius: 10px;
-}
 p {
     color: #0e0548;
     font-weight: 600;
     font-family: Muli, sans-serif;
 }
 
+/*-link button-*/
 nav {
     width: 100%;
     height: 40px;
@@ -22,18 +17,16 @@ nav {
     justify-content: space-evenly;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: white;
 }
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-
 nav>button {
     border-radius: 20px;
     padding: 0px 30px;
     width: 20%;
     font-size: 20px;
+    font-family: Muli, sans-serif;
 }
 .thispage {
-    font-family: Muli, sans-serif;
     background-color: #5345ba;
     border: 2px solid white;
 }
@@ -42,14 +35,16 @@ nav>button {
     font-weight: bold;
 }
 .otherpage {
-    font-family: Muli, sans-serif;
     background-color: white;
     border: 2px solid #5345ba;
 }
 .otherpage>a {
     color: #5345ba;
 }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
 
+/*-cover + profile-*/
 .cover {
     border: 5px double white;
     border-radius: 10px;
@@ -59,7 +54,6 @@ nav>button {
     background-position: center;
     background-size: 220px;
     height: 150px;
-    clear: both;
     margin-bottom: 70px;
 }
 .cover>img {
@@ -68,7 +62,6 @@ nav>button {
     left: 100px;
     border-radius: 10px;
     width: 120px;
-    height: 120px;
 }
 h1 {
     color: white;
@@ -76,15 +69,26 @@ h1 {
     font-family: "Space Mono", monospace;
 }
 
+ /*-section-*/
 .content {
-    height: 300px;
+    height: 400px;
     width: 90%;
     margin-left: 5%;
 }
-section {
+#sec1,#sec2,#sec3 {
     float: left;
 }
+h3 {
+    font-family: Muli, sans-serif;
+}
+.box {
+    color: white;
+    padding: 10px;
+    background-color: #5871f3;
+    border-radius: 5px;   
+}
 
+/*-sec1-*/
 #sec1 {
     width: 31%;
     margin-right: 30px;
@@ -95,10 +99,11 @@ section {
     padding: 1px 10px;
     margin-top: 20px;
 }
-#sec1>div>h3 {
+#more {
     background-color: white;
     padding: 10px;
     color: #0e0548;
+    border-radius: 5px;
 }
 #sec1>div>p {
     background-color: white;
@@ -106,25 +111,74 @@ section {
     padding: 10px;
     margin-top: -10px;
 }
+
+/*-sec2-*/
 #sec2 {
     width: 31%;
     text-align: center;
     margin-right: 30px;
-
-}
-#sec3 {
-    width: 31%;
-}
-h3 {
-    color: white;
-    font-family: Muli, sans-serif;
-    border-radius: 5px;
-}
-.box {
-    padding: 10px;
-    background-color: #5871f3;    
 }
 .cen {
     padding: 10px;
+    color: white;
+}
+video {
+    width: 400px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
+/*-sec3-*/
+#sec3 {
+    width: 31%;
+}
+#sec3>div {
+    background-color: #5345ba;
+    border-radius: 5px;
+    height: 200px;
+    padding: 1px 10px;
+    margin-top: 20px;
+    height: 250px;
+}
+#contacts {
+    background-color: white;
+    color: #0e0548;
+    padding: 10px;
+    border-radius: 5px;
+}
+#divbut,#divp {
+    background-color: white;
+    border-radius: 5px;
+}
+#divbut {
+    float: left;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+#divp {
+    height: 150px;
+    padding-top: 1px;
+}
+#divp>p {
+    padding: 4px;
+}
+#divbut>button {
+    cursor: pointer;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin: 5px;
+}
+#butmail {
+    background-image: url(resources/email.png);
+}
+#butline {
+    background-image: url(resources/line.png);
+}
+#butig {
+    background-image: url(resources/instagram.png);
+}
