@@ -4,12 +4,14 @@ body {
     background-color: #0e0548;
 }
 video {
-    height: 100px;
+    width: 400px;
+    margin-top: 10px;
     border: 2px solid white;
     border-radius: 10px;
 }
 p {
-    color: white;
+    color: #0e0548;
+    font-weight: 600;
     font-family: Muli, sans-serif;
 }
 
@@ -75,24 +77,44 @@ h1 {
 }
 
 .content {
-    border: 1px solid grey;
-    width: 100%;
     height: 300px;
+    width: 90%;
+    margin-left: 5%;
 }
 section {
-    border: 1px solid grey;
     float: left;
 }
+
 #sec1 {
-    width: 30%;
+    width: 31%;
+    margin-right: 30px;
+}
+#sec1>div {
+    background-color: #5345ba;
+    border-radius: 5px;
+    padding: 1px 10px;
+    margin-top: 20px;
+}
+#sec1>div>h3 {
+    background-color: white;
+    padding: 10px;
+    color: #0e0548;
+}
+#sec1>div>p {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: -10px;
 }
 #sec2 {
-    width: 30%;
+    width: 31%;
     text-align: center;
+    margin-right: 30px;
+
 }
 #sec3 {
-    width: 30%;
-} 
+    width: 31%;
+}
 h3 {
     color: white;
     font-family: Muli, sans-serif;
@@ -100,7 +122,7 @@ h3 {
 }
 .box {
     padding: 10px;
-    background-color: rgb(105, 128, 135);    
+    background-color: #5871f3;    
 }
 .cen {
     padding: 10px;
