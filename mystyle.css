@@ -9,6 +9,7 @@ p {
     font-family: Muli, sans-serif;
 }
 
+
 /*-------------------- index.html --------------------*/
 
 /*-link button-*/
@@ -46,6 +47,7 @@ nav>button {
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 
+
 /*-cover + profile-*/
 .cover {
     border: 5px double white;
@@ -71,6 +73,7 @@ h1 {
     font-family: "Space Mono", monospace;
 }
 
+
  /*-section-*/
 .content {
     height: 400px;
@@ -90,6 +93,7 @@ h3 {
     border-radius: 5px;   
 }
 
+
 /*-sec1-*/
 #sec1 {
     width: 31%;
@@ -107,12 +111,13 @@ h3 {
     color: #0e0548;
     border-radius: 5px;
 }
-#sec1>div>p {
+#sec1 p {
     background-color: white;
     border-radius: 5px;
     padding: 10px;
     margin-top: -10px;
 }
+
 
 /*-sec2-*/
 #sec2 {
@@ -130,6 +135,7 @@ video {
     border: 2px solid white;
     border-radius: 10px;
 }
+
 
 /*-sec3-*/
 #sec3 {
@@ -185,6 +191,7 @@ video {
     background-image: url(resources/instagram.png);
 }
 
+
 /*-------------------- myjourney.html --------------------*/
 
 h2 {
@@ -212,6 +219,7 @@ hr {
     font-family: Muli, sans-serif;
 }
 
+
 /*-- education section --*/
 .education {
     float: left;
@@ -238,6 +246,7 @@ hr {
 
 }
 
+
 /*-- life section --*/
 .life {
     float: left;
@@ -257,6 +266,7 @@ hr {
     font-family: Muli, sans-serif;
     list-style-type: square;
 }
+
 
 /*-- skill section --*/
 .skill {
@@ -281,7 +291,9 @@ hr {
     list-style-type: square;
 }
 
+
 /*-------------------- myfuture.html --------------------*/
+
 .myfuh3 {
     color: white;
     text-indent: 60px;
@@ -293,6 +305,8 @@ h4 {
     font-family: Muli, sans-serif;
 }
 
+
+/*--progress section--*/
 #progress {
     height: 270px;
     margin-left: 60px;
@@ -316,23 +330,25 @@ h4 {
     float: left;
 }
 
-#resault {
+
+/*--result section--*/
+#result {
     height: 270px;
     margin-left: 60px;
 }
-#resault div {
+#result div {
     width: 20%;
     height: 270px;
     text-align: center;
     float: left;
     margin-right: 6px;
 }
-#resault img {
+#result img {
     width: 200px;
     height: 200px;
     border-radius: 10px;
 }
-#resault p {
+#result p {
     color: white;
     font-family: Muli, sans-serif;
     font-size: 40px;
