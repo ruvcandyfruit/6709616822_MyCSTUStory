@@ -191,6 +191,7 @@ h2 {
     text-align: center;
     font-family: "Space Mono", monospace;
     font-style: oblique;
+    clear: both;
 }
 #dino {
     width: 300px;
@@ -200,5 +201,45 @@ h2 {
 }
 hr {
     width: 90%;
+}
+#myjoh2 {
+    text-align: start;
+    text-indent: 100px;
+    font-style: normal;
+    color: white;
+    font-family: Muli, sans-serif;
+}
+.education {
+    border: 1px solid grey;
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 10px;
+}
+.education>h3 {
+    color: white;
+    border: 1px solid grey;
+    background-color: #5345ba;
+    background-size: contain;
+    background-size: 20px;
+}
+.education>ul {
+    color: white;
+    font-family: Muli, sans-serif;
+}
+.life {
+    border: 1px solid grey;  
+    float: left;
+    width: 40%;
+}
+.life>h3 {
+    color: white;
+    border: 1px solid grey;
+    background-color: #5345ba;
+
+}
+.life>ul {
+    color: white;
+    font-family: Muli, sans-serif;
 }
 /*-------------------- myfuture.html --------------------*/
