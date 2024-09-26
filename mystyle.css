@@ -282,7 +282,60 @@ hr {
 }
 
 /*-------------------- myfuture.html --------------------*/
-#light {
-    border: 1px solid grey;
+.myfuh3 {
+    color: white;
+    text-indent: 60px;
+    font-size: ;
+    font-size: x-large;}
+h4 {
+    color: white;
+    font-size: larger;
+    font-family: Muli, sans-serif;
+}
+
+#progress {
+    height: 270px;
+    margin-left: 60px;
+}
+#progress div {
+    width: 20%;
+    height: 270px;
+    text-align: center;
+    float: left;
+}
+#progress img {
     width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+#progress p {
+    color: white;
+    font-family: Muli, sans-serif;
+    font-size: 50px;
+    padding-top: 40px;
+    float: left;
+}
+
+#resault {
+    height: 270px;
+    margin-left: 60px;
+}
+#resault div {
+    width: 20%;
+    height: 270px;
+    text-align: center;
+    float: left;
+    margin-right: 6px;
+}
+#resault img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+#resault p {
+    color: white;
+    font-family: Muli, sans-serif;
+    font-size: 40px;
+    padding-top: 60px;
+    float: left;
 }
