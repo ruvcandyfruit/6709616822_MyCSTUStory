@@ -198,6 +198,7 @@ h2 {
     border-radius: 10px;
     position: relative;
     margin-left: 40%;
+    margin-bottom: 10px;
 }
 hr {
     width: 90%;
@@ -210,36 +211,49 @@ hr {
     font-family: Muli, sans-serif;
 }
 .education {
-    border: 1px solid grey;
     float: left;
     width: 40%;
+    height: 150px;
     margin-left: 10%;
-    margin-right: 10px;
+    margin-bottom: 20px;
+    border-right: 1px solid white;
 }
 .education>h3 {
     color: white;
-    border: 1px solid grey;
     background-color: #5345ba;
     background-size: contain;
     background-size: 20px;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
 }
 .education>ul {
     color: white;
     font-family: Muli, sans-serif;
+    list-style-type: square;
+
 }
+
 .life {
-    border: 1px solid grey;  
     float: left;
     width: 40%;
+    height: 150px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 .life>h3 {
     color: white;
-    border: 1px solid grey;
     background-color: #5345ba;
-
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
 }
 .life>ul {
     color: white;
     font-family: Muli, sans-serif;
+    list-style-type: square;
+
 }
 /*-------------------- myfuture.html --------------------*/
