@@ -186,6 +186,7 @@ video {
 }
 
 /*-------------------- myjourney.html --------------------*/
+
 h2 {
     color: rgb(187, 187, 187);
     text-align: center;
@@ -210,13 +211,15 @@ hr {
     color: white;
     font-family: Muli, sans-serif;
 }
+
+/*-- education section --*/
 .education {
     float: left;
-    width: 40%;
-    height: 150px;
-    margin-left: 10%;
-    margin-bottom: 20px;
     border-right: 1px solid white;
+    margin-left: 280px;
+    margin-right: 50px;
+    width: 450px;
+    height: 170px;
 }
 .education>h3 {
     color: white;
@@ -235,25 +238,51 @@ hr {
 
 }
 
+/*-- life section --*/
 .life {
     float: left;
-    width: 40%;
-    height: 150px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    width: 500px;
+    height: 170px;
 }
-.life>h3 {
+.life > h3 {
     color: white;
     background-color: #5345ba;
-    width: 50px;
+    width: 45px;
     text-align: center;
     padding: 5px;
     border-radius: 5px;
 }
-.life>ul {
+.life > ul {
     color: white;
     font-family: Muli, sans-serif;
     list-style-type: square;
-
 }
+
+/*-- skill section --*/
+.skill {
+    clear: both;
+    margin-bottom: 30px;
+    margin-left: 260px;
+    padding-left: 200px;
+    width: 800px;
+    border-top: 1px solid white;
+}
+.skill > h3 {
+    color: white;
+    background-color: #5345ba;
+    width: 60px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+.skill > ul {
+    color: white;
+    font-family: Muli, sans-serif;
+    list-style-type: square;
+}
+
 /*-------------------- myfuture.html --------------------*/
+#light {
+    border: 1px solid grey;
+    width: 200px;
+}
